@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo /sbin/rmmod kvm_intel
+sudo /sbin/rmmod kvm
+sudo /etc/init.d/vboxdrv start
